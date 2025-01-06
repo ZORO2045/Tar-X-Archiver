@@ -1,6 +1,6 @@
 # Tar-X Archiver
 
-![banner](https://raw.githubusercontent.com/ZORO2045/Tar-X-Archiver/main/banner.png)
+![banner](https://raw.githubusercontent.com/ZORO2045/Tar-X-Archiver/main/banner.jpg)
 
 **Tar-X Archiver** is a command-line tool to create non-compressed `.tar` archives using the standard (POSIX) `tar` command.
 
