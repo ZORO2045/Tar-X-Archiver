@@ -11,7 +11,7 @@ import tempfile
 init(autoreset=True)
 
 TOOL_NAME = f"{Fore.CYAN}Tar-X Archiver{Fore.RESET}"
-TOOL_VERSION = "1.3"
+TOOL_VERSION = "1.4"
 DEVELOPER = f"{Fore.MAGENTA}@ZORO2045. [ Telegram GitHub ]{Fore.RESET}"
 DESCRIPTION = f"{Fore.YELLOW}A tool to create non-compressed {Fore.BLUE}.tar{Fore.RESET}{Fore.YELLOW} archives using the standard (posix) tar command.{Fore.RESET}"
 GITHUB_REPO = "https://github.com/ZORO2045/Tar-X-Archiver"
