@@ -4,6 +4,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.6+-blue?style=flat-square&logo=python)](https://www.python.org/)
 
+**Repository Views** ![Views](https://profile-counter.glitch.me/Tar-X-Archiver/count.svg)
+
 ## Description 📝
 
 This tool simplifies the creation of non-compressed `.tar` archives from your files. It's particularly useful when you need to create archives without file compression, making the archiving process very fast.  Additionally, this tool can be beneficial for users who flash `.tar` files via tools like Odin, as it allows for quick creation of archives without compression, which is especially helpful in reducing the time for flashing operations.
