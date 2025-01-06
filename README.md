@@ -1,4 +1,4 @@
-# Tar-X Archiver
+# Tar-X Archiver  🚀
 
 ![banner](https://raw.githubusercontent.com/ZORO2045/Tar-X-Archiver/main/banner.jpg)
 
@@ -8,13 +8,13 @@
 
 This tool is designed to simplify the creation of non-compressed `.tar` archives from your files. It's particularly useful when you need to create archives without file compression, making the archiving process very fast.
 
-## Features
+## Features ✨
 
 *   **Non-Compressed .tar Archives:** Utilizes the standard `tar` command to create archives quickly and without compression.
 *   **Easy-to-Use Command-Line Interface:** Provides a clear and straightforward user experience.
 *   **Self-Updating:** You can update the tool automatically by using `git clone` to pull the latest changes from the repository.
 
-## Requirements
+## Requirements ⚙️
 
 *   Python 3.6 or higher.
 *   Python Libraries:
@@ -24,7 +24,7 @@ This tool is designed to simplify the creation of non-compressed `.tar` archives
 *   Git (for automatic updates).
 *   `tar` command (usually present by default on Unix-like systems).
 
-## Installation
+## Installation 🛠️
 
 1.  **Clone the repository:**
     ```bash
@@ -39,7 +39,7 @@ This tool is designed to simplify the creation of non-compressed `.tar` archives
     pip install -r requirements.txt
     ```
 
-## Usage
+## Usage 💻
 
 1.  **Run the tool:**
     ```bash
