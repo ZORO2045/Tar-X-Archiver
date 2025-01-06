@@ -46,9 +46,9 @@ This tool is designed to simplify the creation of non-compressed `.tar` archives
     python main.py
     ```
 2.  **Choose an option:**
-    *   **1: Create Archive:** The tool will prompt you for the input path and the output path.
-        *   **Example Input File:** `/storage/emulated/0/Download/boot.img`
-        *   **Example Output Archive:** `/storage/emulated/0/Download/boot.tar`
-    *   **2: Check for Updates:** The tool will check for updates and clone them if available.
-    *   **3: Exit:** To exit the tool.
+   *   **1: Create Archive:** The tool will prompt you for the input path and the output path.
+   *   **Example Input File:** `/storage/emulated/0/Download/boot.img`
+   *   **Example Output Archive:** `/storage/emulated/0/Download/boot.tar`
+   *   **2: Check for Updates:** The tool will check for updates and clone them if available.
+   *   **3: Exit:** To exit the tool.
 
