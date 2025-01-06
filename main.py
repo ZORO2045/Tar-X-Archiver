@@ -11,7 +11,7 @@ import tempfile
 init(autoreset=True)
 
 TOOL_NAME = f"{Fore.CYAN}Tar-X Archiver{Fore.RESET}"
-TOOL_VERSION = "1.4"
+TOOL_VERSION = "1.1"
 DEVELOPER = f"{Fore.MAGENTA}@ZORO2045. [ Telegram GitHub ]{Fore.RESET}"
 DESCRIPTION = f"{Fore.YELLOW}A tool to create non-compressed {Fore.BLUE}.tar{Fore.RESET}{Fore.YELLOW} archives using the standard (posix) tar command.{Fore.RESET}"
 GITHUB_REPO = "https://github.com/ZORO2045/Tar-X-Archiver"
@@ -108,8 +108,12 @@ def update_self():
 
         for item in os.listdir(temp_dir):
           item_path = os.path.join(temp_dir, item)
-          shutil.move(item_path, script_dir)
-
+          dest_path = os.path.join(script_dir, item)
+          if os.path.isfile(item_path):
+            shutil.copy2(item_path, dest_path)
+          elif os.path.isdir(item_path):
+             shutil.copytree(item_path, dest_path)
+        
         print(f"{Fore.GREEN}Script updated successfully.{Fore.RESET}")
         print(f"{Fore.YELLOW}Please restart the application.{Fore.RESET}")
         shutil.rmtree(temp_dir)
