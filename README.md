@@ -2,9 +2,9 @@
 
 ![banner](https://raw.githubusercontent.com/ZORO2045/Tar-X-Archiver/main/banner.jpg)
 
-**Tar-X Archiver** is a command-line tool to create non-compressed `.tar` archives using the standard (POSIX) `tar` command.
+[![Python](https://img.shields.io/badge/Python-3.6+-blue?style=flat-square&logo=python)](https://www.python.org/)
 
-## Description
+## Description 📝
 
 This tool is designed to simplify the creation of non-compressed `.tar` archives from your files. It's particularly useful when you need to create archives without file compression, making the archiving process very fast.
 
