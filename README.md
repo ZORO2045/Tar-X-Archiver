@@ -6,7 +6,7 @@
 
 ## Description 📝
 
-This tool is designed to simplify the creation of non-compressed `.tar` archives from your files. It's particularly useful when you need to create archives without file compression, making the archiving process very fast.
+This tool simplifies the creation of non-compressed `.tar` archives from your files. It's particularly useful when you need to create archives without file compression, making the archiving process very fast.  Additionally, this tool can be beneficial for users who flash `.tar` files via tools like Odin, as it allows for quick creation of archives without compression, which is especially helpful in reducing the time for flashing operations.
 
 ## Features ✨
 
